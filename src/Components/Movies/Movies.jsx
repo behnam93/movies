@@ -16,9 +16,10 @@ export default function Movies({ movies, h2title, whichApi }) {
                   <img
                     src="https://imdb-api.com/images/360x440/nopicture.jpg"
                     key="{scarlet1}"
+                    alt="No Image"
                   />
                 ) : (
-                  <img src={movie.Poster} />
+                  <img src={movie.Poster} alt={movie.Title} />
                 )}
                 {movie.imDbRating && (
                   <div className="imdb">{movie.imDbRating}</div>
@@ -43,6 +44,7 @@ export default function Movies({ movies, h2title, whichApi }) {
               <img
                 src={movie.image.replace("original", "360x440")}
                 key="{scarlet3}"
+                alt={movie.fullTitle}
               />
               {movie.imDbRating && (
                 <div className="imdb">{movie.imDbRating}</div>
