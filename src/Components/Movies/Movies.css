@@ -80,6 +80,7 @@
   }
   .movie {
     width: 310px;
+    max-width: 95%;
     height: 400px;
   }
   .movie-name {
