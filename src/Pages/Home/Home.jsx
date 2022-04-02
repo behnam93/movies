@@ -9,12 +9,12 @@ import Skeletons from "../../Components/Skeletons";
 export default function Home() {
   // Fetch Most Popular Tv series
   const { data, isPending, error } = useFetch(
-    "https://imdb-api.com/en/API/MostPopularTVs/k_kmt3mpg6"
+    "https://imdb-api.com/en/API/MostPopularTVs/k_kmt3mpg6 ezafi"
   );
   console.log(data);
   // Fetch Comming Soon Movies
   const { data2, isPending2, error2 } = useFetch2(
-    "https://imdb-api.com/en/API/ComingSoon/k_kmt3mpg6"
+    "https://imdb-api.com/en/API/ComingSoon/k_kmt3mpg6 ezafi"
   );
   return (
     <div>
