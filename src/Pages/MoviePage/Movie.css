@@ -128,7 +128,7 @@
     .movie-image {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        border-radius: 1rem 0 0 0;
+        border-radius: 0 1rem 0 0;
         border: none;
     }
     .movie-image img {
@@ -136,7 +136,7 @@
         box-shadow: 0.05rem 0.05rem 0.5rem rgb(77, 75, 75);
     }
     .imagedetails {
-        border-radius: 1rem 0 0 0;
+        border-radius: 0 1rem 0 0;
         padding: 5% 0 0 8%;
     }
     .movie-detail {
