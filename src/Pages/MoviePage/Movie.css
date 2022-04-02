@@ -1,0 +1,161 @@
+.movie-container {
+    margin: auto;
+    max-width: 86%;
+    display: grid;
+    grid-template-columns: 12fr 4fr;
+    padding-bottom: 30px;
+}
+.movie-detail {
+    font-family: 'Quicksand', sans-serif;
+    padding: 8% 0 0 8%;
+    background-color: white;
+    border-radius: 1rem 0 0 1rem;
+}
+.movie-detail h1,h4 {
+    font-weight: bold;
+}
+.moviePlot {
+    margin-left: 1rem;
+    width: 80%;
+    text-align: justify;
+}
+.actors {
+    margin-top: 8%;
+    line-height: 1rem;
+}
+.movie-ratings {
+    margin-top: 8%;
+}
+.ratingsflex {
+    display: flex;
+    margin-left: 1rem;
+    flex-wrap: wrap;
+}
+.rateflexrow {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 11rem;
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+    
+}
+.ratevalue {
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.3rem;
+}
+.ratevalue span {
+    font-size: 1rem;
+    font-weight: 100;
+}
+.ratepropertyname {
+    color: gray;
+    font-size: 0.9rem;
+}
+.progress {
+    width: 90%;
+    height: 0.45rem;
+    background-color: rgb(187, 184, 184);
+}
+.actorscast {
+    margin-left: 1rem;
+}
+.movie-image {
+    border-radius: 0 1rem 1rem 0;
+    background-color: white;
+}
+.movie-image img {
+    width: 100%;
+    border-radius: 0 1rem 0 0;
+    box-shadow: -0.05rem 0.05rem 0.5rem rgb(77, 75, 75);
+}
+.genres ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+
+}
+
+.genres li {
+    font-size: 0.8rem;
+    float: left;
+    width: 90px;
+    height: 25px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 3px;
+    margin-top: 1px;
+    
+}
+.genres li:nth-child(2n+1) {
+    background-color: rgba(255, 187, 0, 0.76);
+}
+.genres li:nth-child(2n) {
+    background-color: rgb(49, 49, 218,0.6);
+}
+.genres li:nth-child(3n) {
+    background-color: rgba(243, 12, 12, 0.6)
+}
+.genres li:nth-child(4n) {
+    background-color: rgba(40, 128, 47, 0.6);
+}
+.runtime {
+    margin-top: 1.5rem;
+    line-height: 0.1rem;
+}
+.propertyname {
+    font-size: 0.6rem;
+    color: gray;
+}
+.propertyvalue {
+    font-size: 0.9rem;
+    font-weight:400;
+}
+.director {
+    margin-top: 1.5rem;
+    line-height: 0.7rem;
+}
+@media (max-width: 550px) {
+    .movie-container {
+        margin: auto;
+        max-width: 95%;
+        display: flex;
+        flex-direction: column-reverse;
+        padding-bottom: 30px;
+    }
+    .movie-image {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border-radius: 1rem 0 0 0;
+        border: none;
+    }
+    .movie-image img {
+        border-radius: 1rem 0 0 0;
+        box-shadow: 0.05rem 0.05rem 0.5rem rgb(77, 75, 75);
+    }
+    .imagedetails {
+        border-radius: 1rem 0 0 0;
+        padding: 5% 0 0 8%;
+    }
+    .movie-detail {
+        border: none;
+        padding: 4% 0 0 4%;
+        background-color: white;
+        border-radius: 0 0 1rem 1rem;
+    }
+    .genres ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .ratevalue {
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.3rem;
+    }
+    .ratevalue span {
+        font-size: 0.9rem;
+        font-weight: 100;
+    }
+}

@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.centralize {
+  width: fit-content;
+  position: absulote;
+  margin: 5rem auto auto auto;
+  top: 10rem;
+}

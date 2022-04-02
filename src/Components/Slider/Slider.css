@@ -1,0 +1,24 @@
+.mySlides {
+  display: none;
+}
+img {
+  vertical-align: middle;
+}
+.vasat {
+  margin: auto;
+}
+.vasat h2 {
+  margin-top: 15px;
+  margin-left: 5%;
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+  animation: animateh2 5s forwards 0.4s ease-in-out infinite;
+}
+@keyframes animateh2 {
+  50% {
+    color: rgb(195, 217, 236);
+  }
+  100% {
+    color: aliceblue;
+  }
+}
