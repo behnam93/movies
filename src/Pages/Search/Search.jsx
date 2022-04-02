@@ -10,7 +10,7 @@ export default function Search() {
   const location = useLocation().search;
   const queryParams = new URLSearchParams(location);
   const query = queryParams.get("q");
-  const url = `http://www.omdbapi.com/?s=${query}&apikey=72cd314d`;
+  const url = `https://www.omdbapi.com/?s=${query}&apikey=72cd314d`;
   const { error, isPending, data } = useFetch(url);
   let [color, setColor] = useState("#ffffff");
   const override = css`
