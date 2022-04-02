@@ -79,8 +79,8 @@
     grid-template-columns: repeat(1, auto);
   }
   .movie {
-    width: 340px;
-    height: 430px;
+    width: 310px;
+    height: 400px;
   }
   .movie-name {
     color: white;
