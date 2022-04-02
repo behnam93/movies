@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import SearchBar from "../SearchBar";
 
 export default function NavBar() {
-  const [searchTerm, setSearchTerm] = useState("");
   return (
     <div className="border-bottom">
       <nav className="navbar navbar-expand-lg navbar-light">

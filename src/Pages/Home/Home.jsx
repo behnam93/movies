@@ -1,5 +1,5 @@
 import "./Home.css";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Slider from "../../Components/Slider";
 import { useFetch } from "../../Components/UseFetch";
 import Movies from "../../Components/Movies/Movies";
@@ -17,10 +17,6 @@ export default function Home() {
   const { data2, isPending2, error2 } = useFetch2(
     "https://imdb-api.com/en/API/ComingSoon/k_kmt3mpg6 ezafi"
   );
-  let [color, setColor] = useState("#ffffff");
-  const override = css`
-    border-color: red;
-  `;
   return (
     <div>
       <div className="">
