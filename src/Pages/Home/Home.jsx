@@ -31,7 +31,7 @@ export default function Home() {
           )}
           {error ||
             (isPending && (
-              <Skeletons h2title={"Most Popular TV Series"} />
+              <Skeletons h2title={"Most Popular TV Seriess"} />
               // <div className="">
               //   <div className="movies-list">
               //     <h2>Most Popular TV Series</h2>
