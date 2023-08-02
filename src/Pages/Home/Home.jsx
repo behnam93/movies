@@ -25,7 +25,7 @@ export default function Home() {
           {data && (
             <Movies
               whichApi="imdb"
-              h2title={"Most Popular TV Series"}
+              h2title={"Most Popular TV Seriess"}
               movies={data.items.slice(0, 10)}
             />
           )}
