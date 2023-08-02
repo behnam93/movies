@@ -55,7 +55,7 @@ export default function Home() {
           )}
           {error2 ||
             (isPending2 && (
-              <Skeletons h2title={"Most Popular TV Series"} />
+              <Skeletons h2title={"Most Popular TV Seriess"} />
               // <div className="" style={{ margin: "10% 0 0.5rem 1.5rem" }}>
               //   <div className="movies-list">
               //     <h2>Comming Soon</h2>
